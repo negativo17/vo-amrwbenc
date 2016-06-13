@@ -1,6 +1,6 @@
 Name:       vo-amrwbenc
-Version:    0.1.2
-Release:    1%{?dist}
+Version:    0.1.3
+Release:    3%{?dist}
 Summary:    VisualOn AMR-WB encoder library
 License:    ASL 2.0
 URL:        http://opencore-amr.sourceforge.net/
