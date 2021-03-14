@@ -33,9 +33,7 @@ applications that use %{name}.
 %make_install
 find %{buildroot} -name "*.la" -delete
 
-%post -p /sbin/ldconfig
-
-%postun -p /sbin/ldconfig
+%ldconfig_scriptlets
 
 %files
 %license COPYING
