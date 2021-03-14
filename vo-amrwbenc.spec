@@ -23,7 +23,7 @@ The %{name}-devel package contains libraries and header files for developing
 applications that use %{name}.
 
 %prep
-%autosetup
+%autosetup -p1
 
 %build
 %configure --disable-static
